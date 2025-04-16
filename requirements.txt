@@ -6,6 +6,9 @@ python-dotenv
 pinecone-client[grpc]
 langchain_pinecone
 langchain_community
-langchain_openai
+transformers
+accelerate
+torch
 langchain_experimental
+bitsandbytes # for quantization to reduce memory usage
 -e .
