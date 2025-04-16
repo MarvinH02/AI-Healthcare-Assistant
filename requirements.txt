@@ -1,14 +1,21 @@
-sentence-transformers==2.2.2
-langchain
+# Core dependencies
 flask
-pypdf
 python-dotenv
+langchain==0.3.23
+langchain_community==0.3.21
+langchain_experimental==0.3.4
+langchain_pinecone==0.2.5
 pinecone-client[grpc]
-langchain_pinecone
-langchain_community
-transformers
-accelerate
-torch
-langchain_experimental
-bitsandbytes # for quantization to reduce memory usage
+pypdf==5.4.0
+
+# Model and embeddings 
+transformers==4.51.3
+accelerate==1.6.0
+torch==2.6.0
+bitsandbytes==0.45.5
+
+# Try a slightly older version of sentence-transformers that might have better Windows compatibility
+sentence-transformers==2.0.0
+
+# Install the project itself
 -e .
