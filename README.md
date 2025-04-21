@@ -25,4 +25,9 @@ conda activate ai-healthcare-assistant
 pip install -r requirements.txt
 ```
 
-Don't forget to create an .env file and also use the correct 
+Don't forget to create an .env file and use the correct Names for the API keys:
+PINECONE_API_KEY = "xxx"
+OPENAI_API_KEY = "xxx"
+
+Now, in VSCode go into the notebook, and initialize the enivornment.
+Go into research/chatbot_pipeline.ipynb and initialize all the notebook and test the queries at the bottom.
