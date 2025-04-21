@@ -8,14 +8,11 @@ langchain_pinecone==0.2.5
 pinecone-client[grpc]
 pypdf==5.4.0
 
-# Model and embeddings 
 transformers==4.51.3
 accelerate==1.6.0
 torch==2.6.0
 bitsandbytes==0.45.5
 
-# Try a slightly older version of sentence-transformers that might have better Windows compatibility
 sentence-transformers==2.0.0
 
-# Install the project itself
 -e .
